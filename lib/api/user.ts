@@ -37,9 +37,8 @@ export async function getMdxSource(postContents: string) {
 }
 
 export const placeholderBio = `
-Tincidunt quam neque in cursus viverra orci, dapibus nec tristique. Nullam ut sit dolor consectetur urna, dui cras nec sed. Cursus risus congue arcu aenean posuere aliquam.
-
-Et vivamus lorem pulvinar nascetur non. Pulvinar a sed platea rhoncus ac mauris amet. Urna, sem pretium sit pretium urna, senectus vitae. Scelerisque fermentum, cursus felis dui suspendisse velit pharetra. Augue et duis cursus maecenas eget quam lectus. Accumsan vitae nascetur pharetra rhoncus praesent dictum risus suspendisse.`;
+Henry Paige , Software Developer||DevOps Engineer ,i have experience with a variety of front end &back
+end technologes. I have worked on several open source projects and i am willing to learn more advance technologies to solve real life problems and enhance the development of magical things😎.`;
 
 export async function getUser(username: string): Promise<UserProps | null> {
   const client = await clientPromise;
